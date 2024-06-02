@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+background-color: #ffffff;
+margin: 0;
+}
+nav>p{
+    margin: 20px auto;
+}
+nav{
+    font-size: 25px;
+    color: #053F5C;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: row;
+    background-color: #9FE7F5;
+}
+#caixa{
+    width: 600px;
+    height: 500px;
+    background-color: #9FE7F5;
+    border-radius: 8px;
+    margin: 250px auto 0px auto;
+}
+#icone>i{
+    color: #F27F0C;
+    margin: -90px auto;
+    justify-content: center;
+    background-color: #fdbf42;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#icone{
+    display: flex;
+}
+#caixaInput{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 200px auto;
+
+}
+#caixaInput>input{
+    margin-bottom: 30px;
+    width: auto;
+}
+#Display{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    color: #053F5C;
+}
+#Display>#botao2{
+    margin-top: 15px;
+}

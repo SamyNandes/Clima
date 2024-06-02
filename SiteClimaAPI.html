@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+<nav>
+<p>Veja o clima em qualquer <b>cidade</b> do mundo!</p>
+</nav>
+<div id="caixa">
+    <div id="icone">
+        <i class="fa-solid fa-temperature-quarter fa-7x"></i>
+    </div>
+    <div id="caixaInput" class="input input-lg" >
+            <input id="input" type="text" class="form-control" aria-describedby="inputGroup-sizing-lg">
+            <button id="botao" type="button" class="btn btn-warning">Buscar</button>
+        <div id="Display">
+            <h3 id="cidade"></h3>
+            <h3 class="" id="h1"></h3>
+            <h3 class="" id="h2"></h3>
+            <h3 class="" id="h3"></h3>
+            <h3 class="" id="h4"></h3>
+            <button onclick="novaPesquisa()" id="botao2" class="btn btn-warning" >Faça uma nova pesquisa</button>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="logica.js"></script>
+    <script src="https://kit.fontawesome.com/09cdcbb07c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
